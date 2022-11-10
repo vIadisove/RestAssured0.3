@@ -5,6 +5,7 @@ public class TestPost {
     @Test
     public void CreatePostTest(){
         stepUser.createUser("name","job");
+
     }
 
     StepRegister stepRegister = new StepRegister();
